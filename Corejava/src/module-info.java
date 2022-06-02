@@ -1,2 +1,2 @@
-module Corejava {
+odule Corejava {
 }
