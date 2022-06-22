@@ -12,14 +12,12 @@ public class Vecttor {
 			stack.push("bye");
 			stack.push("gm");
 			
-			System.out.println("element in stack "+stack);
-			stack.empty();
-			System.out.println("is the stack ?" + stack);
+			System.out.println("Stack is empty? "+stack.empty());
+		
+		
+		 System.out.println("which element is at top: " +stack.peek());
 			
-			System.out.println("first element in stack is"+ stack);
-		 stack.peek();
 			
-			System.out.println("which element is at top"+stack);
 			
 					Iterator<String> itr = stack.iterator();
 			while(itr.hasNext()) {
